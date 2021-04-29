@@ -1,0 +1,144 @@
+body {
+    margin: 20px !important;
+    background-color: #F4F1EA !important;
+}
+
+
+h1,
+h2,
+p {
+    color: #1F4747;
+}
+
+
+
+/**************************** FARVEKODER ****************************/
+#farver {
+    margin-top: 100px;
+}
+
+.rounded-circle {
+    width: 50px;
+    height: 50px;
+}
+
+.zoomcircle:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+}
+
+
+.green {
+    background-color: #0B5D51;
+}
+
+.red {
+    background-color: #9F2C00;
+}
+
+.orange {
+    background-color: #C25B00;
+}
+
+.cream {
+    background-color: #F4F1EA;
+    border: 1px solid #1F4747;
+}
+
+.tekstfarve {
+    background-color: #1F4747;
+}
+
+.farvekode {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+
+/**************************** FONT ****************************/
+
+#font {
+    margin: 100px 0;
+}
+
+h1 {
+    font-family: terfens, sans-serif;
+}
+
+h2 {
+    font-family: terfens, sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fontnavn {
+    font-size: 0.8rem;
+}
+
+
+
+/**************************** BILLEDESTIL ****************************/
+#billedestil {
+    background-color: #0B5D51;
+    margin: 50px;
+}
+
+.img-fluid {
+    height: 100% !important;
+    position: relative;
+    left: -40px;
+    top: -30px;
+}
+
+.tekst_billedestil {
+    color: #F4F1EA;
+    padding: 10px;
+}
+
+
+
+
+/**************************** MEDIAQUERIES ****************************/
+
+@media (min-width: 768px) {
+    .rounded-circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .farvekode {
+        font-size: 1rem;
+    }
+
+    .img-fluid {
+        width: 50% !important;
+        left: -70px;
+        top: -40px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .img-fluid {
+        width: 40% !important;
+        left: -150px;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .img-fluid {
+        width: 30% !important;
+        left: -200px;
+        top: -45px;
+    }
+}
+
+
+@media (min-width: 1500px) {
+    .img-fluid {
+        left: -250px;
+    }
+}
