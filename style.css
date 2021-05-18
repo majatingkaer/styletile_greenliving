@@ -79,6 +79,15 @@ p {
 
 
 
+
+/**************************** ADJEKTIVER ****************************/
+#adjektiver * {
+    font-family: 'Kalam', cursive;
+    font-size: 2.5rem;
+}
+
+
+
 /**************************** BILLEDESTIL ****************************/
 #billedestil {
     background-color: #0B5D51;
